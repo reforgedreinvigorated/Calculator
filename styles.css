@@ -15,14 +15,38 @@
 {
     background: white;
     padding: 15%;
+    position: relative;
 }
 .numpads
 {
     background: gray;
     flex: 1;
     margin-top: 1%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
 }
+
 #header
 {
     text-align: center;
+}
+
+.numpad
+{
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#currNumber
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 8px;
+}
+
+.operation
+{
+    font-weight: 900;
 }
