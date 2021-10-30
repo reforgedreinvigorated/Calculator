@@ -1,3 +1,7 @@
+const add = (a, b) => (parseInt(a) + parseInt(b)).toString();
+const subtract = (a, b) => (parseInt(a) - parseInt(b)).toString();
+const multiply = (a, b) => (parseInt(a) * parseInt(b)).toString();
+const divide = (a, b) => (parseInt(a) / parseInt(b)).toString();
 
 
 const numpads = document.querySelectorAll(".numpad");
